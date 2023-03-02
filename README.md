@@ -24,4 +24,7 @@ datadog:
   # (...)
   ```
   
+Upgrade the helm with command `helm upgrade -f values.yaml release --set datadog.apiKey=<YOUR_API_KEY> datadog/datadog`
   
+### Documentation Referenced
+https://docs.datadoghq.com/containers/kubernetes/prometheus/?tab=kubernetesadv2
